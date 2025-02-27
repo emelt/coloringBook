@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using UnityEngine.SceneManagement;
 using GoogleMobileAds.Api;
 using System;
@@ -84,9 +84,9 @@ public class GoogleMobileAdsScript : MonoBehaviour
     public string androidRewardUnitID = "ca-app-pub-3940256099942544/5224354917";
 
     [Header("iOS Ads ID")]
-    public string iOSBannerUnitID = "ca-app-pub-3940256099942544/2934735716";
-    public string iOSInterstitialUnitID = "ca-app-pub-3940256099942544/4411468910";
-    public string iOSRewardUnitID = "ca-app-pub-3940256099942544/1712485313";
+    public string iOSBannerUnitID = "ca-app-pub-2907040266749920/3808105227";
+    public string iOSInterstitialUnitID = "ca-app-pub-2907040266749920/8969712812";
+    public string iOSRewardUnitID = "ca-app-pub-2907040266749920/1046210514";
 
     [Header("Banner Ad Extra Config")]
     public bool bannerUse = false;
@@ -192,7 +192,7 @@ public class GoogleMobileAdsScript : MonoBehaviour
 #if UNITY_ANDROID
         string adUnitId = androidBannerUnitID;
 #elif UNITY_IPHONE
-        string adUnitId = iOS_BannerUnitID;
+        string adUnitId = iOSBannerUnitID;
 #else
         string adUnitId = "unexpected_platform";
         return;
@@ -267,7 +267,7 @@ public class GoogleMobileAdsScript : MonoBehaviour
 #if UNITY_ANDROID
         string adUnitId = androidInterstitialUnitID;
 #elif UNITY_IPHONE
-        string adUnitId = iOS_InterstitialUnitID;
+        string adUnitId = iOSInterstitialUnitID;
 #else
         string adUnitId = "unexpected_platform";
         return;
@@ -341,7 +341,7 @@ public class GoogleMobileAdsScript : MonoBehaviour
 #if UNITY_ANDROID
         string adUnitId = androidRewardUnitID;
 #elif UNITY_IPHONE
-        string adUnitId = iOS_RewardUnitID;
+        string adUnitId = iOSRewardUnitID;
 #else
         string adUnitId = "unexpected_platform";
         return;

@@ -301,7 +301,7 @@ static int imagePickerState = 0; // 0 -> none, 1 -> showing (always in this stat
 // Credit: https://stackoverflow.com/a/10531752/2373034
 + (void)pickMedia:(BOOL)imageMode savePath:(NSString *)mediaSavePath {
 	imagePicker = [[UIImagePickerController alloc] init];
-	imagePicker.delegate = self;
+//	imagePicker.delegate = self;
 	imagePicker.allowsEditing = NO;
 	imagePicker.sourceType = UIImagePickerControllerSourceTypePhotoLibrary;
 	
@@ -326,7 +326,7 @@ static int imagePickerState = 0; // 0 -> none, 1 -> showing (always in this stat
 		[rootViewController presentViewController:imagePicker animated:YES completion:^{ imagePickerState = 0; }];
 	else { // iPad
 		popup = [[UIPopoverController alloc] initWithContentViewController:imagePicker];
-		popup.delegate = self;
+//		popup.delegate = self;
 		[popup presentPopoverFromRect:CGRectMake( rootViewController.view.frame.size.width / 2, rootViewController.view.frame.size.height / 2, 1, 1 ) inView:rootViewController.view permittedArrowDirections:0 animated:YES];
 	}
 }

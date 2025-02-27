@@ -1,0 +1,854 @@
+Unity Editor version:    2023.2.4f1 (3a7eb0602d92)
+Branch:                  2023.2/release
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 14.1.1 (Build 23B81)
+Darwin version:          23.1.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        32768 MB
+Using pre-set license
+Pro License: YES
+2024-01-10 15:38:30.545 Unity[2115:23947] WARNING: Secure coding is not enabled for restorable state! Enable secure coding by implementing NSApplicationDelegate.applicationSupportsSecureRestorableState: and returning YES.
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2023.2.4f1-arm64/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/emeltopaloglu/Downloads/codester-28568-coloring-book-portrait-unity-paint-kids-game/ColoringBook-Portrait-UnityProject
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+49682
+-job-worker-count
+4
+-background-job-worker-count
+8
+-asset-garbage-collectors
+1
+Successfully changed project path to: /Users/emeltopaloglu/Downloads/codester-28568-coloring-book-portrait-unity-paint-kids-game/ColoringBook-Portrait-UnityProject
+/Users/emeltopaloglu/Downloads/codester-28568-coloring-book-portrait-unity-paint-kids-game/ColoringBook-Portrait-UnityProject
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [8150277824] Host "[IP] 192.168.0.16 [Port] 0 [Flags] 2 [Guid] 3866765005 [EditorId] 3866765005 [Version] 1048832 [Id] OSXEditor(0,Emels-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [8150277824] Host "[IP] 192.168.0.16 [Port] 0 [Flags] 2 [Guid] 3866765005 [EditorId] 3866765005 [Version] 1048832 [Id] OSXEditor(0,Emels-MacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 4
+[Physics::Module] Initialized MultithreadedJobDispatcher with 4 workers.
+Library Redirect Path: Library/
+Refreshing native plugins compatible for Editor in 2.27 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2023.2.4f1 (3a7eb0602d92)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2023.2.4f1-arm64/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/emeltopaloglu/Downloads/codester-28568-coloring-book-portrait-unity-paint-kids-game/ColoringBook-Portrait-UnityProject/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+ preferred device: Apple M1 Max (high power)
+Metal devices available: 1
+0: Apple M1 Max (high power)
+Using device Apple M1 Max (high power)
+Initializing Metal device caps: Apple M1 Max
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2023.2.4f1-arm64/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2023.2.4f1-arm64/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2023.2.4f1-arm64/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56115
+Begin MonoManager ReloadAssembly
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2023.2.4f1-arm64/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Trying to register platform support module: /Applications/Unity/Hub/Editor/2023.2.4f1-arm64/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll (that doesn't exist). Retrying without overrides.
+Platform support module is not available: /Applications/Unity/Hub/Editor/2023.2.4f1-arm64/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2023.2.4f1-arm64/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Registered in 0.000774 seconds.
+- Loaded All Assemblies, in  0.236 seconds
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+[usbmuxd] Send listen message
+Native extension for iOS target not found
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+icall.c:1842:
+icall.c:1842:
+- Finished resetting the current domain, in  0.692 seconds
+Domain Reload Profiling: 928ms
+	BeginReloadAssembly (48ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (28ms)
+	LoadAllAssembliesAndSetupDomain (121ms)
+		LoadAssemblies (48ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (119ms)
+			TypeCache.Refresh (118ms)
+				TypeCache.ScanAssembly (109ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (692ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (659ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (482ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (5ms)
+			ProcessInitializeOnLoadAttributes (137ms)
+			ProcessInitializeOnLoadMethodAttributes (31ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+- Loaded All Assemblies, in  0.323 seconds
+Refreshing native plugins compatible for Editor in 1.53 ms, found 1 plugins.
+Native extension for iOS target not found
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.299 seconds
+Domain Reload Profiling: 622ms
+	BeginReloadAssembly (165ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (26ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (22ms)
+	LoadAllAssembliesAndSetupDomain (94ms)
+		LoadAssemblies (99ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (29ms)
+			TypeCache.Refresh (22ms)
+				TypeCache.ScanAssembly (16ms)
+			BuildScriptInfoCaches (4ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (300ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (182ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (12ms)
+			ProcessInitializeOnLoadAttributes (131ms)
+			ProcessInitializeOnLoadMethodAttributes (25ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Launching external process: /Applications/Unity/Hub/Editor/2023.2.4f1-arm64/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.05 seconds
+Refreshing native plugins compatible for Editor in 1.66 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 10 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 980 unused Assets / (406.0 KB). Loaded Objects now: 1463.
+Memory consumption went from 103.9 MB to 103.5 MB.
+Total: 2.755833 ms (FindLiveObjects: 0.055542 ms CreateObjectMapping: 0.022583 ms MarkObjects: 2.498167 ms  DeleteObjects: 0.179000 ms)
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x28f787000 may have been prematurely finalized
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+- Loaded All Assemblies, in  0.215 seconds
+Refreshing native plugins compatible for Editor in 2.51 ms, found 1 plugins.
+Native extension for iOS target not found
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.290 seconds
+Domain Reload Profiling: 506ms
+	BeginReloadAssembly (84ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (26ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (12ms)
+	LoadAllAssembliesAndSetupDomain (80ms)
+		LoadAssemblies (93ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (18ms)
+			TypeCache.Refresh (3ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (12ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (290ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (173ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (12ms)
+			ProcessInitializeOnLoadAttributes (125ms)
+			ProcessInitializeOnLoadMethodAttributes (23ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Refreshing native plugins compatible for Editor in 1.57 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 978 unused Assets / (132.3 KB). Loaded Objects now: 1463.
+Memory consumption went from 110.1 MB to 110.0 MB.
+Total: 2.700667 ms (FindLiveObjects: 0.057500 ms CreateObjectMapping: 0.022917 ms MarkObjects: 2.497833 ms  DeleteObjects: 0.121916 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x28e95f000 may have been prematurely finalized
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+- Loaded All Assemblies, in  0.227 seconds
+Refreshing native plugins compatible for Editor in 1.57 ms, found 1 plugins.
+Native extension for iOS target not found
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.282 seconds
+Domain Reload Profiling: 509ms
+	BeginReloadAssembly (86ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (25ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (12ms)
+	LoadAllAssembliesAndSetupDomain (88ms)
+		LoadAssemblies (102ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (20ms)
+			TypeCache.Refresh (3ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (13ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (282ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (166ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (11ms)
+			ProcessInitializeOnLoadAttributes (122ms)
+			ProcessInitializeOnLoadMethodAttributes (20ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Refreshing native plugins compatible for Editor in 1.51 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 978 unused Assets / (115.2 KB). Loaded Objects now: 1463.
+Memory consumption went from 118.8 MB to 118.7 MB.
+Total: 2.553459 ms (FindLiveObjects: 0.051166 ms CreateObjectMapping: 0.021084 ms MarkObjects: 2.356250 ms  DeleteObjects: 0.124500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 3.00 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 0 unused Assets / (0 B). Loaded Objects now: 1463.
+Memory consumption went from 117.8 MB to 117.8 MB.
+Total: 2.467792 ms (FindLiveObjects: 0.041500 ms CreateObjectMapping: 0.011708 ms MarkObjects: 2.411292 ms  DeleteObjects: 0.002875 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.02 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 0 unused Assets / (0 B). Loaded Objects now: 1463.
+Memory consumption went from 117.7 MB to 117.7 MB.
+Total: 2.404334 ms (FindLiveObjects: 0.035792 ms CreateObjectMapping: 0.011958 ms MarkObjects: 2.354000 ms  DeleteObjects: 0.002125 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 981.645260 seconds.
+  path: Assets/_Game/icon512.png
+  artifactKey: Guid(48ac9c92a9f9f6b42a587c2d46d3aaf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/icon512.png using Guid(48ac9c92a9f9f6b42a587c2d46d3aaf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '09e1ec20fe5fd5d6f1af351f9d82964b') in 0.078952583 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.524857 seconds.
+  path: Assets/_Game/_Sprites/_Buttons/ButtonMusicController-1.png
+  artifactKey: Guid(48bd95c9f0bf4ecba7a46adced45f6f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/_Sprites/_Buttons/ButtonMusicController-1.png using Guid(48bd95c9f0bf4ecba7a46adced45f6f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a060bcf4de8f89523beecd0fedb4280c') in 0.007270083 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/_Game/_Sprites/_UI/Marker-Layer2.png
+  artifactKey: Guid(76d1a88c527c4b7ba1440d1dd947a077) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/_Sprites/_UI/Marker-Layer2.png using Guid(76d1a88c527c4b7ba1440d1dd947a077) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '88a11f5d40d8f61ffbca2c218eda9b15') in 0.00378075 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/_Game/_Sprites/_Buttons/ButtonUndo-2.png
+  artifactKey: Guid(b780b3fa868f46418fdc23aec64c8081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/_Sprites/_Buttons/ButtonUndo-2.png using Guid(b780b3fa868f46418fdc23aec64c8081) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f92a6a63e0389fb1ed29c23753ee2f81') in 0.004706541 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/_Game/_Sprites/_Buttons/ButtonUndo-1.png
+  artifactKey: Guid(540b109a65fe470b9eb915a41baab048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/_Sprites/_Buttons/ButtonUndo-1.png using Guid(540b109a65fe470b9eb915a41baab048) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ac08c6ea0696c06edc0a52768116cb1b') in 0.004277375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/_Game/_Sprites/_Buttons/ModePaintBucket-2.png
+  artifactKey: Guid(45c6ef5d06c74eb39920e30f57f61bf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/_Sprites/_Buttons/ModePaintBucket-2.png using Guid(45c6ef5d06c74eb39920e30f57f61bf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '35f412c75195cdb6dbc0b4efc4837467') in 0.0046715 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/_Game/_Sprites/_UI/Eraser.png
+  artifactKey: Guid(c251ef42221344ba84f5adaff18e1291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/_Sprites/_UI/Eraser.png using Guid(c251ef42221344ba84f5adaff18e1291) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f2edd35bd7c044485c0790a7f70763b3') in 0.004290667 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000102 seconds.
+  path: Assets/_Game/_Sprites/_Buttons/ModeMarker-1.png
+  artifactKey: Guid(5a02d8b2f19647a8bed9563122906ac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/_Sprites/_Buttons/ModeMarker-1.png using Guid(5a02d8b2f19647a8bed9563122906ac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '28c46f30910431bdb9730b7130bb80b4') in 0.005090333 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/_Game/_Sprites/_Buttons/ModePencil-1.png
+  artifactKey: Guid(8a6c71e9547444b4bcd9859f3461b2c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/_Sprites/_Buttons/ModePencil-1.png using Guid(8a6c71e9547444b4bcd9859f3461b2c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8b6e0490695c622d4e2638d43b1f3c29') in 0.0053105 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/_Game/_Sprites/_Textures/Empty.png
+  artifactKey: Guid(d4932dc26f21431da3df57694ae52277) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/_Sprites/_Textures/Empty.png using Guid(d4932dc26f21431da3df57694ae52277) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd8b1311269fdff7c02dfbdd7db47bd23') in 0.005926584 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/_Game/_Sprites/_Buttons/ModePaintBucket-1.png
+  artifactKey: Guid(9c56665983e14e7c972e752e7f01248d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/_Sprites/_Buttons/ModePaintBucket-1.png using Guid(9c56665983e14e7c972e752e7f01248d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9d45691e4f03609355ff8b85d7fc6523') in 0.006566541 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/_Game/_Sprites/_Buttons/ModeMarker-2.png
+  artifactKey: Guid(cb2c835612d544cd8040ee372bf0d8a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/_Sprites/_Buttons/ModeMarker-2.png using Guid(cb2c835612d544cd8040ee372bf0d8a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3f602edc21455465f8167ba4682afa73') in 0.0052875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/_Game/_Sprites/_Buttons/ButtonRedo-2.png
+  artifactKey: Guid(a81f2b70317842d9a44ed2bb76a8f46b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/_Sprites/_Buttons/ButtonRedo-2.png using Guid(a81f2b70317842d9a44ed2bb76a8f46b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '891b7b21e79ebd001531557bebced6a2') in 0.004980833 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/_Game/_Sprites/_Main/FG.png
+  artifactKey: Guid(3b26c6ee5f88464587f4e73f2a224565) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/_Sprites/_Main/FG.png using Guid(3b26c6ee5f88464587f4e73f2a224565) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2c9a7d4954e11176cdd098fdf001abce') in 0.004611292 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/_Game/_Sprites/_UI/Marker-Layer1.png
+  artifactKey: Guid(31c5e397575446a680eed50509cacffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/_Sprites/_UI/Marker-Layer1.png using Guid(31c5e397575446a680eed50509cacffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ec99d02a2773bfcf87f7ea722417b38a') in 0.00373025 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.018026 seconds.
+  path: Assets/_Game/_Sprites/_Buttons/ModePencil-2.png
+  artifactKey: Guid(4e0b47d0ab3d4900b7bdd854767fa1a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/_Sprites/_Buttons/ModePencil-2.png using Guid(4e0b47d0ab3d4900b7bdd854767fa1a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8c685df686468ee0d13a93d37b1ca154') in 0.0058735 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/_Game/_Sprites/_Buttons/ModeSticker-2.png
+  artifactKey: Guid(469fdc80c5504a49820c71f7a00d3174) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/_Sprites/_Buttons/ModeSticker-2.png using Guid(469fdc80c5504a49820c71f7a00d3174) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8be112d077ae860003aafc81b24e96ac') in 0.005395833 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.051340 seconds.
+  path: Assets/_Game/_Sprites/_UI/PaintBucket-Layer1.png
+  artifactKey: Guid(7953b5975ed24d9c8a54a5d8a6531897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/_Sprites/_UI/PaintBucket-Layer1.png using Guid(7953b5975ed24d9c8a54a5d8a6531897) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2628f70ee3b1cbd83689340230714839') in 0.005518625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.408316 seconds.
+  path: Assets/_Game/_Sprites/_Buttons/ButtonClear.png
+  artifactKey: Guid(7d0d1488b3fe4127b8de53ee8589eac6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/_Sprites/_Buttons/ButtonClear.png using Guid(7d0d1488b3fe4127b8de53ee8589eac6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3d342455d6d3df14fb9d78ef5b713563') in 0.005464709 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/_Game/_Sprites/_Buttons/ButtonMusicController-0.png
+  artifactKey: Guid(ce7a24f7432546e7ae17e36a3a199aba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/_Sprites/_Buttons/ButtonMusicController-0.png using Guid(ce7a24f7432546e7ae17e36a3a199aba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '29eba42480b2e1082b0548ca99a041b6') in 0.005195 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.041463 seconds.
+  path: Assets/_Game/_Sprites/_Buttons/ButtonBrushSize-1.png
+  artifactKey: Guid(5a4e08b160b34c92b881de47f47eb056) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/_Sprites/_Buttons/ButtonBrushSize-1.png using Guid(5a4e08b160b34c92b881de47f47eb056) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1fa2c2dc032338f0bc224a32f500f7d2') in 0.005421958 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/_Game/_Sprites/_Buttons/ButtonCamera-1.png
+  artifactKey: Guid(3119c461f6844cf78feeda76a6806202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/_Sprites/_Buttons/ButtonCamera-1.png using Guid(3119c461f6844cf78feeda76a6806202) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a7e285830bc7a96709163ddfe1c2931c') in 0.005479958 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/_Game/_Sprites/_Main/BTN-C-1.png
+  artifactKey: Guid(79652529c9224674b9f33a4ab5053265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/_Sprites/_Main/BTN-C-1.png using Guid(79652529c9224674b9f33a4ab5053265) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '80545660cf811900e20caf81c1907c6e') in 0.005435083 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/_Game/_Sprites/_Main/BTN-P-2.png
+  artifactKey: Guid(16fef890a6464ec580bde304bc59b7af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/_Sprites/_Main/BTN-P-2.png using Guid(16fef890a6464ec580bde304bc59b7af) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ad9804cef7fdcf7fcd46e0baa4409993') in 0.005057375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/_Game/_Sprites/_Buttons/ButtonCamera-2.png
+  artifactKey: Guid(87db10547dac4981bb79d8b49f98cc1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/_Sprites/_Buttons/ButtonCamera-2.png using Guid(87db10547dac4981bb79d8b49f98cc1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fb26f4f6f3c0ed234b574fe02ec225cb') in 0.005219375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/_Game/_Sprites/_Main/BTN-P-1.png
+  artifactKey: Guid(6019984435304085986213bd441c3f0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/_Sprites/_Main/BTN-P-1.png using Guid(6019984435304085986213bd441c3f0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '525d4e0048a496a610867265ffa38472') in 0.0049845 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.019168 seconds.
+  path: Assets/_Game/_Sprites/_Textures/011.png
+  artifactKey: Guid(e77593a01ed14d3d8a8dc873f40cbfc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/_Sprites/_Textures/011.png using Guid(e77593a01ed14d3d8a8dc873f40cbfc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '501040b548ff858bb29994cc655b15f3') in 0.007767292 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012606 seconds.
+  path: Assets/_Game/_Sprites/_Textures/005.png
+  artifactKey: Guid(b457bf3b883a43b181b5a8ecdf25646c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/_Sprites/_Textures/005.png using Guid(b457bf3b883a43b181b5a8ecdf25646c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0b5156e1de8c53f0735d2dc22cc55fc1') in 0.005670792 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/_Game/_Sprites/_Textures/007.png
+  artifactKey: Guid(a1a6dc684a9c48c1b93810d4e6c32826) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/_Sprites/_Textures/007.png using Guid(a1a6dc684a9c48c1b93810d4e6c32826) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '17df5e4590b1aca21afa46ff11c7d4cd') in 0.005506208 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/_Game/_Sprites/_Textures/010.png
+  artifactKey: Guid(d863f15a3eb84532928210df63f899b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/_Sprites/_Textures/010.png using Guid(d863f15a3eb84532928210df63f899b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1ef439299423d83005e4c4efd82992a7') in 0.005048416 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.028673 seconds.
+  path: Assets/_Game/_Sprites/_Textures/000.png
+  artifactKey: Guid(de8988b0b1e548be95fc8d18c66fe53c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/_Sprites/_Textures/000.png using Guid(de8988b0b1e548be95fc8d18c66fe53c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1fd9043d1fe673d36f3aa4245b8e0bfd') in 0.006032083 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/_Game/_Sprites/_Textures/004.png
+  artifactKey: Guid(cd86fe31b49d43d8a02123b6deb19409) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/_Sprites/_Textures/004.png using Guid(cd86fe31b49d43d8a02123b6deb19409) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '89b1b983cd5bea9c1bd8d5c75d886d0b') in 0.005148375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.758444 seconds.
+  path: Assets/_Game/_Sprites/_Main/PLUS.png
+  artifactKey: Guid(51ec75a150be48b68453a933de896983) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/_Sprites/_Main/PLUS.png using Guid(51ec75a150be48b68453a933de896983) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '03b67c85a85aef132b74bf1606390c3f') in 0.006731041 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.035572 seconds.
+  path: Assets/_Game/_Sprites/_UI/PR2.png
+  artifactKey: Guid(b9d12bb4e63045efade07d1fcae3d881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/_Sprites/_UI/PR2.png using Guid(b9d12bb4e63045efade07d1fcae3d881) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '690efa91c5a8d852216035f0d9b36ace') in 0.005144 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/_Game/_Sprites/_UI/R4.png
+  artifactKey: Guid(85d60eccf9a34ca88c663709cddcb328) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/_Sprites/_UI/R4.png using Guid(85d60eccf9a34ca88c663709cddcb328) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd735a99b1246ea9bc5e0579401d54f74') in 0.0043515 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/_Game/_Sprites/_Stickers/Sticker1.png
+  artifactKey: Guid(8a03e516a09a430dbf94d750c8b39dc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/_Sprites/_Stickers/Sticker1.png using Guid(8a03e516a09a430dbf94d750c8b39dc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b5106c14f8923b6c248034a6075a1c42') in 0.003419083 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/_Game/_Sprites/_Stickers/Sticker2.png
+  artifactKey: Guid(4c1f370cde894b8b88ec95b3e2890af5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/_Sprites/_Stickers/Sticker2.png using Guid(4c1f370cde894b8b88ec95b3e2890af5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '65c042cd55027be6dca253783edf5dae') in 0.003119792 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/_Game/_Sprites/_Stickers/Sticker5.png
+  artifactKey: Guid(9da7b45218e84262914c8c6799911ab8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/_Sprites/_Stickers/Sticker5.png using Guid(9da7b45218e84262914c8c6799911ab8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5bf07a1b67fff95adfbd2043c5aa70a2') in 0.003952583 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/_Game/_Sprites/_StickersIcons/Sticker4.png
+  artifactKey: Guid(c8fccbd955e647eeb4d8fbb6ec501ca1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/_Sprites/_StickersIcons/Sticker4.png using Guid(c8fccbd955e647eeb4d8fbb6ec501ca1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b3d7e584d9a783db3f082b30b9517465') in 0.013332042 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/stamps.png
+  artifactKey: Guid(83ba00a4c7e92479ea8eb69684780480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/stamps.png using Guid(83ba00a4c7e92479ea8eb69684780480) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd70a565927ec53c2ce1360630ff90da4') in 0.034758292 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/_Game/_Sprites/_Stickers/Sticker10.png
+  artifactKey: Guid(b1be3615c55f410b8bab785821ce6968) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/_Sprites/_Stickers/Sticker10.png using Guid(b1be3615c55f410b8bab785821ce6968) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '84d96761ca2b7012beaae949ff5a3981') in 0.003894208 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/_Game/_Sprites/_Stickers/Sticker8.png
+  artifactKey: Guid(6164a88ab9644099a71a5183465ce9ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/_Sprites/_Stickers/Sticker8.png using Guid(6164a88ab9644099a71a5183465ce9ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7e9610084f7f61b0a1680f56584e8161') in 0.003836041 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000437 seconds.
+  path: Assets/_Game/_Sprites/_StickersIcons/Sticker2.png
+  artifactKey: Guid(f840ffe5d1cd4e67bb01606300a28d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/_Sprites/_StickersIcons/Sticker2.png using Guid(f840ffe5d1cd4e67bb01606300a28d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5dcdafa1831071cfca64bf7e6138528d') in 0.005596875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/_Game/_Sprites/_StickersIcons/Sticker6.png
+  artifactKey: Guid(82b0ac2c182e4ea18d2cae1d5a8e8834) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/_Sprites/_StickersIcons/Sticker6.png using Guid(82b0ac2c182e4ea18d2cae1d5a8e8834) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd94955c9ee8f85de709ed2c799b47fa2') in 0.005406625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 35.027183 seconds.
+  path: Assets/_Game/_Sprites/_UI/WaterMark.png
+  artifactKey: Guid(3677a733175f44e39bbc07d77ce6e0a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/_Sprites/_UI/WaterMark.png using Guid(3677a733175f44e39bbc07d77ce6e0a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '54958c9d88c5c49469bf87c42326ea9a') in 0.007702667 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 81.907252 seconds.
+  path: Assets/_Game/_Sprites/AppIcons/Assets.xcassets/AppIcon.appiconset/196.png
+  artifactKey: Guid(eb4a58e46e1a44069a0852a68d693430) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/_Sprites/AppIcons/Assets.xcassets/AppIcon.appiconset/196.png using Guid(eb4a58e46e1a44069a0852a68d693430) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c73be41c908bcdce257a354c7da39b4b') in 0.006910417 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/_Game/_Sprites/AppIcons/Assets.xcassets/AppIcon.appiconset/256.png
+  artifactKey: Guid(5cadaf5f178334c8e97f74e8986e2cc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/_Sprites/AppIcons/Assets.xcassets/AppIcon.appiconset/256.png using Guid(5cadaf5f178334c8e97f74e8986e2cc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fb73361694dc9a2cbd6c6e14d272a502') in 0.005498333 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/_Game/_Sprites/AppIcons/Assets.xcassets/AppIcon.appiconset/1024.png
+  artifactKey: Guid(a66f0e37dddcd4016aec451fdcb9d97c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/_Sprites/AppIcons/Assets.xcassets/AppIcon.appiconset/1024.png using Guid(a66f0e37dddcd4016aec451fdcb9d97c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '916742df574d6ab1c20fbfd53ad7bcde') in 0.006590041 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001095 seconds.
+  path: Assets/_Game/_Sprites/AppIcons/Assets.xcassets/AppIcon.appiconset/88.png
+  artifactKey: Guid(501e886d8bd1f48a1a72368111af24f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/_Sprites/AppIcons/Assets.xcassets/AppIcon.appiconset/88.png using Guid(501e886d8bd1f48a1a72368111af24f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9a8d548783492197fed65108df07b278') in 0.005137167 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/_Game/_Sprites/AppIcons/Assets.xcassets/AppIcon.appiconset/167.png
+  artifactKey: Guid(d02d10883c3b34941b16eeb9ef7adcea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/_Sprites/AppIcons/Assets.xcassets/AppIcon.appiconset/167.png using Guid(d02d10883c3b34941b16eeb9ef7adcea) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '52232cd12d935eadc379fb922b0e2ff0') in 0.006672292 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/_Game/_Sprites/AppIcons/Assets.xcassets/AppIcon.appiconset/92.png
+  artifactKey: Guid(262c56d9c10af4e09a9dd599f56cd278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/_Sprites/AppIcons/Assets.xcassets/AppIcon.appiconset/92.png using Guid(262c56d9c10af4e09a9dd599f56cd278) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '510e2044b9d04a26e7e02676faf6b492') in 0.005517208 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000112 seconds.
+  path: Assets/_Game/_Sprites/AppIcons/Assets.xcassets/AppIcon.appiconset/55.png
+  artifactKey: Guid(4edf8a96be18a433096713808d2b83fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/_Sprites/AppIcons/Assets.xcassets/AppIcon.appiconset/55.png using Guid(4edf8a96be18a433096713808d2b83fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f454f80ce1bca5b24a755741f7e7bcea') in 0.005374416 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/_Game/_Sprites/AppIcons/Assets.xcassets/AppIcon.appiconset/66.png
+  artifactKey: Guid(fec28d7e6ccbc4dfdbfe68b4cc6e46b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/_Sprites/AppIcons/Assets.xcassets/AppIcon.appiconset/66.png using Guid(fec28d7e6ccbc4dfdbfe68b4cc6e46b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b0a81d2b3c16f7e4df57dee8f845cad0') in 0.004518291 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/_Game/_Sprites/AppIcons/Assets.xcassets/AppIcon.appiconset/76.png
+  artifactKey: Guid(a24b8c9503fcb4333bb1f5dacd8cd2d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/_Sprites/AppIcons/Assets.xcassets/AppIcon.appiconset/76.png using Guid(a24b8c9503fcb4333bb1f5dacd8cd2d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7552c9ac06730f6e399be333d69a3390') in 0.00472475 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/_Game/_Sprites/AppIcons/Assets.xcassets/AppIcon.appiconset/58.png
+  artifactKey: Guid(a3a2f2856cb184475bed88fffaa43a1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/_Sprites/AppIcons/Assets.xcassets/AppIcon.appiconset/58.png using Guid(a3a2f2856cb184475bed88fffaa43a1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ff2ce56445901326f2aa8fa039153192') in 0.005026333 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/_Game/_Sprites/AppIcons/Assets.xcassets/AppIcon.appiconset/50.png
+  artifactKey: Guid(d3ca6194945b3409f81d1acd0f66aa5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/_Sprites/AppIcons/Assets.xcassets/AppIcon.appiconset/50.png using Guid(d3ca6194945b3409f81d1acd0f66aa5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c0adcabab62b1e4303ea4e4ae4bbeca0') in 0.003856041 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/_Game/_Sprites/AppIcons/Assets.xcassets/AppIcon.appiconset/40.png
+  artifactKey: Guid(2ee6321acdc5f48d6b5f5815f286ed7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/_Sprites/AppIcons/Assets.xcassets/AppIcon.appiconset/40.png using Guid(2ee6321acdc5f48d6b5f5815f286ed7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eb861d606cae7ffb245251f3a7a0744e') in 0.003892792 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/_Game/_Sprites/AppIcons/Assets.xcassets/AppIcon.appiconset/48.png
+  artifactKey: Guid(574eefd0d5bd44507bf8cbf52541094d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/_Sprites/AppIcons/Assets.xcassets/AppIcon.appiconset/48.png using Guid(574eefd0d5bd44507bf8cbf52541094d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ea73175ddad6f9214da938c7fa263808') in 0.004765083 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/_Game/_Sprites/AppIcons/Assets.xcassets/AppIcon.appiconset/114.png
+  artifactKey: Guid(876f6085e72e342139d6085b8d12b550) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/_Sprites/AppIcons/Assets.xcassets/AppIcon.appiconset/114.png using Guid(876f6085e72e342139d6085b8d12b550) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '16394f757746e46de038b0ecb2fd7dbf') in 0.00528875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/_Game/_Sprites/AppIcons/Assets.xcassets/AppIcon.appiconset/152.png
+  artifactKey: Guid(713dc7ae8cf964d81914696bc45dc6cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/_Sprites/AppIcons/Assets.xcassets/AppIcon.appiconset/152.png using Guid(713dc7ae8cf964d81914696bc45dc6cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '204e0b83691d2758b1d677779a5a2ff6') in 0.00560075 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/_Game/_Sprites/AppIcons/Assets.xcassets/AppIcon.appiconset/60.png
+  artifactKey: Guid(98323570f22f0455e91c9a35ec6ef420) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/_Sprites/AppIcons/Assets.xcassets/AppIcon.appiconset/60.png using Guid(98323570f22f0455e91c9a35ec6ef420) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0868d8a048fde573792f157536776a0d') in 0.005305958 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/_Game/_Sprites/AppIcons/Assets.xcassets/AppIcon.appiconset/64.png
+  artifactKey: Guid(b38d2e4e5fd114c5a95c3ee98a4084c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_Game/_Sprites/AppIcons/Assets.xcassets/AppIcon.appiconset/64.png using Guid(b38d2e4e5fd114c5a95c3ee98a4084c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c6e03f3d5349e9efccffc22b535426a1') in 0.00449625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting

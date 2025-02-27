@@ -1,0 +1,33 @@
+﻿<Properties StartupConfiguration="{A64DCB6C-DBF2-E24A-9FF2-DFF403AC2CB4}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/GoogleMobileAds/GoogleMobileAdsScript.cs">
+    <Files>
+      <File FileName="Assets/GoogleMobileAds/GoogleMobileAdsScript.cs" Line="344" Column="30" />
+      <File FileName="Assets/_Game/_Scripts/_Main/ScrollListManager.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ColoringBook-Portrait-UnityProject" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="_Game" expanded="True">
+                <Node name="_Scripts" expanded="True">
+                  <Node name="_Main" expanded="True" />
+                </Node>
+              </Node>
+              <Node name="GoogleMobileAds" expanded="True">
+                <Node name="GoogleMobileAdsScript.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="0585a6ad-9b50-4674-b73e-ac3d76e71bc9" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

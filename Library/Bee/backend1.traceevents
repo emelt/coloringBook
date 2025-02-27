@@ -1,0 +1,42 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1704916193926485, "dur":1534, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1704916193928024, "dur":4188, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1704916193932335, "dur":180, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1704916193932515, "dur":89, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1704916193954820, "dur":50, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles /Users/emeltopaloglu/Desktop/ColoringBook/Il2CppOutputProject/IL2CPP/external/mono/mono/metadata/w32file-internals.h" }}
+,{ "pid":12345, "tid":0, "ts":1704916193932610, "dur":37282, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1704916193969901, "dur":989, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1704916193970898, "dur":1142, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1704916193972225, "dur":177, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1704916193972500, "dur":1120, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1704916193932541, "dur":37366, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1704916193969910, "dur":947, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1704916193932553, "dur":37361, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1704916193969918, "dur":574, "ph":"X", "name": "File",  "args": { "detail":"/Applications/Unity/Hub/Editor/2023.2.4f1-arm64/Unity.app/Contents/Tools/InternalCallRegistrationWriter/InternalCallRegistrationWriter.exe" }}
+,{ "pid":12345, "tid":2, "ts":1704916193969918, "dur":2102, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1704916193932553, "dur":37396, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1704916193969951, "dur":742, "ph":"X", "name": "File",  "args": { "detail":"/Applications/Unity/Hub/Editor/2023.2.4f1-arm64/Unity.app/Contents/il2cpp/build/deploy/Unity.IL2CPP.Shell.pdb" }}
+,{ "pid":12345, "tid":3, "ts":1704916193969951, "dur":2116, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1704916193932563, "dur":37392, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1704916193969959, "dur":747, "ph":"X", "name": "File",  "args": { "detail":"/Applications/Unity/Hub/Editor/2023.2.4f1-arm64/Unity.app/Contents/il2cpp/build/deploy/Unity.IL2CPP.Bee.BuildLogic.WebGL.pdb" }}
+,{ "pid":12345, "tid":4, "ts":1704916193969959, "dur":2151, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1704916193932570, "dur":37394, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1704916193969966, "dur":742, "ph":"X", "name": "File",  "args": { "detail":"/Applications/Unity/Hub/Editor/2023.2.4f1-arm64/Unity.app/Contents/il2cpp/build/deploy/Unity.IL2CPP.Api.pdb" }}
+,{ "pid":12345, "tid":5, "ts":1704916193969966, "dur":2181, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1704916193932576, "dur":37395, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1704916193969974, "dur":757, "ph":"X", "name": "File",  "args": { "detail":"/Applications/Unity/Hub/Editor/2023.2.4f1-arm64/Unity.app/Contents/il2cpp/build/deploy/System.Windows.dll" }}
+,{ "pid":12345, "tid":6, "ts":1704916193969974, "dur":2146, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1704916193932583, "dur":37395, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1704916193969980, "dur":843, "ph":"X", "name": "File",  "args": { "detail":"/Applications/Unity/Hub/Editor/2023.2.4f1-arm64/Unity.app/Contents/il2cpp/build/deploy/System.Text.Encoding.dll" }}
+,{ "pid":12345, "tid":7, "ts":1704916193969980, "dur":2181, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1704916193932589, "dur":37397, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1704916193969989, "dur":780, "ph":"X", "name": "File",  "args": { "detail":"/Applications/Unity/Hub/Editor/2023.2.4f1-arm64/Unity.app/Contents/il2cpp/build/deploy/System.Runtime.Serialization.Json.dll" }}
+,{ "pid":12345, "tid":8, "ts":1704916193969989, "dur":2140, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1704916193932599, "dur":37393, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1704916193969994, "dur":726, "ph":"X", "name": "File",  "args": { "detail":"/Applications/Unity/Hub/Editor/2023.2.4f1-arm64/Unity.app/Contents/il2cpp/build/deploy/System.Reflection.Extensions.dll" }}
+,{ "pid":12345, "tid":9, "ts":1704916193969994, "dur":2398, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1704916193932605, "dur":37394, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1704916193969999, "dur":509, "ph":"X", "name": "File",  "args": { "detail":"/Applications/Unity/Hub/Editor/2023.2.4f1-arm64/Unity.app/Contents/il2cpp/build/deploy/System.Net.ServicePoint.dll" }}
+,{ "pid":12345, "tid":10, "ts":1704916193969999, "dur":2048, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1704916193974656, "dur":94, "ph":"X", "name": "ProfilerWriteOutput" }
+,

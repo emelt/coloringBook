@@ -30,8 +30,8 @@ public class ScrollListManager : MonoBehaviour
     private Vector3 newLerpPosition;
     private bool lerping;
     private float lerpingSpeed = 0.1f;
-    private float focusedElementScale = 1.2f;
-    private float unfocusedElementsScale = 0.5f;
+    private float focusedElementScale = 2f;
+    private float unfocusedElementsScale = 0.7f;
     private List<GameObject> listOfCharacters;
     private bool buttonPressed;
     private int currentCharacter;
